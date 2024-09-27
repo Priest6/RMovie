@@ -1,4 +1,6 @@
-  .Browser {
-    background-color: #111111;
-  }
-  
+* {
+  margin: 0;
+}
+.Browse {
+  background-color: #111111;
+}

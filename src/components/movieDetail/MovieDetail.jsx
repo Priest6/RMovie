@@ -53,7 +53,7 @@ const MovieDetail = ({ movieData }) => {
         <hr></hr>
         <div>
           <h3>Release Date: {movieData.release_date}</h3>
-          <h3>Vote: {movieData.vote_average}</h3>
+          <h3>Vote: {movieData.vote_average} / 10</h3>
         </div>
         <p className="details__description">{movieData.overview}</p>
       </div>
