@@ -39,7 +39,7 @@ const MovieList = ({ title, fetchUrl, isLargePoster }) => {
       <div className="movie__category">{title}</div>
 
       <div className="movie__posters">
-        <Swiper grabCursor={true} spaceBetween={10} slidesPerView={"7"}>
+        <Swiper grabCursor={true} spaceBetween={10} slidesPerView={"8"}>
           {movies.map((movie) => (
             <SwiperSlide key={movie.id}>
               <img
